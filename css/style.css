@@ -1,0 +1,50 @@
+/*
+#8c8c86
+#53544c
+#472d30
+#72544d
+#191517
+#b4937b
+*/
+
+
+/* Bootstrap */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+
+/* Bootstrap */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: wheat;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 633px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation img {
+    border-radius: 100%;
+}
+
+.presentation div:nth-child(:first-child) {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation p {
+    margin: 1%;
+}
