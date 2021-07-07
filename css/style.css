@@ -75,3 +75,29 @@ body {
 .portfolio p {
     margin: 2%;
 }
+
+.blog {
+    background-color: #292929;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.blog div {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog div {
+    width: 25%;
+    height: 75%;
+}
+
+.blog p {
+    margin: 2%;
+    color: #D3D3D3;
+}
