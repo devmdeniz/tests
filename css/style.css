@@ -131,9 +131,6 @@ body {
     margin-top: 20vh;
     display: flex;
     flex-direction: column;
-}
-
-.blog div {
     width: 25%;
     height: 75%;
 }
