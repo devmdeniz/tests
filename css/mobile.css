@@ -16,4 +16,9 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    justify-content: space-between;
+}
+
+.blog div {
+    margin-left: 33vw;
 }
