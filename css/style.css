@@ -135,11 +135,6 @@ body {
     height: 75%;
 }
 
-.blog p {
-    margin: 2%;
-    color: #D3D3D3;
-}
-
 footer {
     display: flex;
     flex-direction: row;
