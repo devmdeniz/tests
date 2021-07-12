@@ -5,3 +5,8 @@
 .presentation div h1 {
     margin-left: 20%;
 }
+
+.porfolio {
+    display: flex;
+    flex-direction: column;
+}
