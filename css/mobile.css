@@ -1,0 +1,25 @@
+.presentation img {
+    display: none;
+}
+
+.presentation div h1 {
+    margin-left: 20%;
+}
+
+.porfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.blog div {
+    margin-left: 33vw;
+    margin-top: 15vh;
+}
