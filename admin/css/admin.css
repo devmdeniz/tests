@@ -26,3 +26,28 @@ a {
     color: wheat;
     font-size: 25px;
 }
+
+#presentation {
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#presentation div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+}
+
+#presentation button {
+    width: 5vw;
+    height: 5vh;
+}
+
+#presentation div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+}
