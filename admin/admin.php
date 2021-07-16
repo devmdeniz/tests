@@ -154,7 +154,21 @@
                 <input type="email" name="" id="">
                 <button type="submit">Send</button>
             </form>
-        </div>
+    </div>
+    <div>
+            <h1>LinedIn</h1>
+            <form action="">
+                <input type="url" name="" id="">
+                <button type="submit">Send</button>
+            </form>
+    </div>
+    <div>
+            <h1>Github</h1>
+            <form action="">
+                <input type="url" name="" id="">
+                <button type="submit">Send</button>
+            </form>
+    </div>
     </section>
 </body>
 
