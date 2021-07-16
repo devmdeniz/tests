@@ -10,6 +10,11 @@
     <link rel="stylesheet" media="(max-width: 500px)" href="admintablet.css">
 </head>
 <body>
-    
+    <header>
+    <a href="#presentation">Presentation</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+    </header>
 </body>
 </html>
