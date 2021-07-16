@@ -24,14 +24,14 @@
             <h1>Hello World [1]</h1>
             <form action="">
                 <input type="url" name="" id="">
-                <button>Send</button>
+                <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Lorem ipsum [2]</h1>
             <form action="">
                 <input type="url" name="" id="">
-                <button>Send</button>
+                <button type="submit">Send</button>
             </form>
         </div>
     </section>
