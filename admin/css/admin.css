@@ -17,6 +17,7 @@ header {
     background-color: black;
     width: 100vw;
     height: 7vh;
+    position: fixed;
 }
 
 a {
