@@ -35,7 +35,7 @@
             </form>
         </div>
     </section>
-    <section class="portfolio">
+    <section id="portfolio">
     </section>
 </body>
 
