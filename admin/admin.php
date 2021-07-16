@@ -51,6 +51,13 @@
             </form>
         </div>
         <div>
+            <h1>Link 1</h1>
+            <form action="">
+                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div>
             <h1>Image 2</h1>
             <form action="">
                 <textarea name="" id="" cols="25" rows="0.5"></textarea>
@@ -65,6 +72,13 @@
             </form>
         </div>
         <div>
+            <h1>Link 2</h1>
+            <form action="">
+                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div>
             <h1>Image 3</h1>
             <form action="">
                 <textarea name="" id="" cols="25" rows="0.5"></textarea>
@@ -73,6 +87,13 @@
         </div>
         <div>
             <h1>Paragraph 3</h1>
+            <form action="">
+                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div>
+            <h1>Link 3</h1>
             <form action="">
                 <textarea name="" id="" cols="25" rows="0.5"></textarea>
                 <button type="submit">Send</button>
