@@ -23,14 +23,14 @@
         <div>
             <h1>Hello World [1]</h1>
             <form action="">
-                <textarea name="textnew" id="textnew" cols="25" rows="0.5"></textarea>
+                <textarea name="" id="" cols="25" rows="0.5"></textarea>
                 <button>Send</button>
             </form>
         </div>
         <div>
             <h1>Lorem ipsum [2]</h1>
             <form action="">
-                <textarea name="textnew" id="textnew" cols="25" rows="0.5"></textarea>
+                <textarea name="" id="" cols="25" rows="0.5"></textarea>
                 <button>Send</button>
             </form>
         </div>
