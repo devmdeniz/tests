@@ -23,14 +23,14 @@
         <div>
             <h1>Hello World [1]</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <input type="url" name="" id="">
                 <button>Send</button>
             </form>
         </div>
         <div>
             <h1>Lorem ipsum [2]</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <input type="url" name="" id="">
                 <button>Send</button>
             </form>
         </div>
@@ -40,63 +40,63 @@
         <div>
             <h1>Image 1</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Paragraph 1</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
-                <button type="submit">Send</button>
+            <input type="text" name="" id="">
+            <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Link 1</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Image 2</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Paragraph 2</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <input type="text" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Link 2</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Image 3</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Paragraph 3</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
-                <button type="submit">Send</button>
+            <input type="text" name="" id="">
+            <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Link 3</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
@@ -106,46 +106,55 @@
         <div>
             <h1>Image 1</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Link 1</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Image 2</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+                <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Link 2</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+            <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Image 2</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
-                <button type="submit">Send</button>
+            <input type="url" name="" id="">
+            <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Link 3</h1>
             <form action="">
-                <textarea name="" id="" cols="25" rows="0.5"></textarea>
+            <input type="url" name="" id="">
+            <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+    <div>
+            <h1>Mail</h1>
+            <form action="">
+                <input type="email" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
-
     </section>
 </body>
 
