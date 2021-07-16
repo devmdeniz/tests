@@ -63,3 +63,19 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+#blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: tomato;
+}
+
+#blog div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
