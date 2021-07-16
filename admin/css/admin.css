@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: black;
+    width: 100vw;
+    height: 7vh;
+}
+
+a {
+    margin-top: 1vh;
+    text-decoration: none;
+    color: wheat;
+    font-size: 25px;
+}
