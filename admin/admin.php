@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +10,18 @@
     <link rel="stylesheet" media="(max-width: 768px)" href="css/adminmobile.css">
     <link rel="stylesheet" media="(max-width: 500px)" href="css/admintablet.css">
 </head>
+
 <body>
     <header>
-    <a href="#presentation">Presentation</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#blog">Blog</a>
-    <a href="#contact">Contact</a>
+        <a href="#presentation">Presentation</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
     </header>
+
+    <section id="presentation">
+
+    </section>
 </body>
+
 </html>
