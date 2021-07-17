@@ -30,103 +30,103 @@ $formlink = "database/adminforms.php";
         <div>
             <form action=<?php echo $formlink;?> method="GET">
             <h1>Hello World [1]</h1>
-                <input type="text" name="presentationone" required>
+                <input type="text" name="presentationone"  >
         </div>
         <div>
             <h1>Lorem ipsum [2]</h1>
-                <input type="text" name="presentationtwo" required>
+                <input type="text" name="presentationtwo"  >
         </div>
         <div>
             <h1>Image 1</h1>
-                <input type="url" name="presentationthree" required>
+                <input type="url" name="presentationthree"  >
         </div>
     </section>
 <!--  -->
     <section id="portfolio">
         <div>
             <h1>Image 1</h1>
-                <input type="url" name="portfolioone" required>
+                <input type="url" name="portfolioone"  >
         </div>
         <div>
             <h1>Paragraph 1</h1>
-            <input type="text" name="portfoliotwo" required>
+            <input type="text" name="portfoliotwo"  >
         </div>
         <div>
             <h1>Link 1</h1>
-                <input type="url" name="portfoliothree" required>
+                <input type="url" name="portfoliothree"  >
         </div>
         <div>
             <h1>Image 2</h1>
-                <input type="url" name="portfoliofour" required>
+                <input type="url" name="portfoliofour"  >
         </div>
         <div>
             <h1>Paragraph 2</h1>
-                <input type="text" name="portfoliofive" required>
+                <input type="text" name="portfoliofive"  >
         </div>
         <div>
             <h1>Link 2</h1>
-                <input type="url" name="portfoliosix" required>
+                <input type="url" name="portfoliosix"  >
         </div>
         <div>
             <h1>Image 3</h1>
-                <input type="url" name="portfolioseven" required>
+                <input type="url" name="portfolioseven"  >
         </div>
         <div>
             <h1>Paragraph 3</h1>
-            <input type="text" name="portfolioeight" required>
+            <input type="text" name="portfolioeight"  >
         </div>
         <div>
             <h1>Link 3</h1>
-                <input type="url" name="portfolionine" required>
+                <input type="url" name="portfolionine"  >
         </div>
     </section>
 
     <section id="blog">
         <div>
             <h1>Image 1</h1>
-                <input type="url" name="blogone" required>
+                <input type="url" name="blogone"  >
         </div>
         <div>
             <h1>Link 1</h1>
-                <input type="url" name="blogtwo" required>
+                <input type="url" name="blogtwo"  >
         </div>
         <div>
             <h1>Image 2</h1>
-                <input type="url" name="blogthree" required>
+                <input type="url" name="blogthree"  >
         </div>
         <div>
             <h1>Link 2</h1>
-            <input type="url" name="blogfour" required>
+            <input type="url" name="blogfour"  >
         </div>
         <div>
             <h1>Image 2</h1>
-            <input type="url" name="blogfive" required>
+            <input type="url" name="blogfive"  >
         </div>
         <div>
             <h1>Link 3</h1>
-            <input type="url" name="blogsix" required>
+            <input type="url" name="blogsix"  >
         </div>
     </section>
 
     <section id="contact">
     <div>
             <h1>Mail</h1>
-                <input type="email" name="contactone" required>
+                <input type="email" name="contactone"  >
     </div>
     <div>
             <h1>LinedIn</h1>
-                <input type="url" name="contacttwo" required>
+                <input type="url" name="contacttwo"  >
     </div>
     <div>
             <h1>Github</h1>
-                <input type="url" name="contactthree" required>
-            </form>
-    </div>
-    </section>
-
-    <footer>
-    <button type="submit">Send</button>
-    </footer>
+                <input type="url" name="contactthree"  >
+            </div>
+        </section>
+        
+        <footer>
+            <button type="submit">Send</button>
+        </footer>
+    </form>
 </body>
 
 </html>
