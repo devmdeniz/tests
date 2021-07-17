@@ -126,7 +126,7 @@ $contactthree = $_GET["contactthree"];
 // 
 */
 if(isset($presentationone)) {
-    die("oldu la");
+    die($presentationone . $presentationtwo . $presentationthree);
 }
 
 ?>
