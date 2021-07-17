@@ -39,7 +39,6 @@ $formlink = "database/adminforms.php";
         <div>
             <h1>Image 1</h1>
                 <input type="url" name="presentationthree" required>
-                <button type="submit">Send</button>
             </form>
         </div>
     </section>
@@ -178,6 +177,10 @@ $formlink = "database/adminforms.php";
             </form>
     </div>
     </section>
+
+    <footer>
+    <button type="submit">Send</button>
+    </footer>
 </body>
 
 </html>

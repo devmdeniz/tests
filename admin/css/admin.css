@@ -90,3 +90,15 @@ button {
     width: 100vw;
     height: 15vh;
 }
+
+footer {
+    position: fixed;
+    z-index: 3;
+    margin-top: 95vh;
+}
+
+footer button {
+    width: 100vw;
+    background-color: black;
+    color: wheat;
+}
