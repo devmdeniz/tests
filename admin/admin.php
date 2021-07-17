@@ -1,3 +1,10 @@
+
+<?php
+
+$formlink = "database/adminforms.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,14 +29,14 @@
     <section id="presentation">
         <div>
             <h1>Hello World [1]</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Lorem ipsum [2]</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
@@ -39,63 +46,63 @@
     <section id="portfolio">
         <div>
             <h1>Image 1</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Paragraph 1</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
             <input type="text" name="" id="">
             <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Link 1</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Image 2</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Paragraph 2</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="text" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Link 2</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Image 3</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Paragraph 3</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
             <input type="text" name="" id="">
             <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Link 3</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
@@ -105,42 +112,42 @@
     <section id="blog">
         <div>
             <h1>Image 1</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Link 1</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Image 2</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Link 2</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
             <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Image 2</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
             <input type="url" name="" id="">
             <button type="submit">Send</button>
             </form>
         </div>
         <div>
             <h1>Link 3</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
             <input type="url" name="" id="">
             <button type="submit">Send</button>
             </form>
@@ -150,21 +157,21 @@
     <section id="contact">
     <div>
             <h1>Mail</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="email" name="" id="">
                 <button type="submit">Send</button>
             </form>
     </div>
     <div>
             <h1>LinedIn</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
     </div>
     <div>
             <h1>Github</h1>
-            <form action="">
+            <form action=<?php echo $formlink;?>>
                 <input type="url" name="" id="">
                 <button type="submit">Send</button>
             </form>
