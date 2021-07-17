@@ -25,31 +25,25 @@ $formlink = "database/adminforms.php";
         <a href="#blog">Blog</a>
         <a href="#contact">Contact</a>
     </header>
-
+<!--  -->
     <section id="presentation">
         <div>
-            <h1>Hello World [1]</h1>
             <form action=<?php echo $formlink;?> method="GET">
+            <h1>Hello World [1]</h1>
                 <input type="text" name="presentationone" required>
-                <button type="submit">Send</button>
-            </form>
         </div>
         <div>
             <h1>Lorem ipsum [2]</h1>
-            <form action=<?php echo $formlink;?> method="GET">
                 <input type="text" name="presentationtwo" required>
-                <button type="submit">Send</button>
-            </form>
         </div>
         <div>
             <h1>Image 1</h1>
-            <form action=<?php echo $formlink;?> method="GET">
                 <input type="url" name="presentationthree" required>
                 <button type="submit">Send</button>
             </form>
         </div>
     </section>
-
+<!--  -->
     <section id="portfolio">
         <div>
             <h1>Image 1</h1>

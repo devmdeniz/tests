@@ -40,7 +40,9 @@ a {
 
 #presentation div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
 }
 
 button {
