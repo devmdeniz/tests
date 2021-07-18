@@ -1,5 +1,5 @@
 <?php
-
+include("./connection.php");
 // Presentation = 3
 // Portfolio = 9
 // Blog = 6
@@ -125,8 +125,5 @@ $contacttwo = $_GET["contacttwo"];
 $contactthree = $_GET["contactthree"];
 // 
 */
-if(isset($presentationone)) {
-    die($presentationone . $presentationtwo . $presentationthree);
-}
 
 ?>

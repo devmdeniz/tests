@@ -9,7 +9,7 @@ $password = "";
 $conn = mysqli_connect($servername, $username, $password, $database);
 
 if(!$conn) {
-    die("Database Err");
+    die("Database Err" . mysqli_connect_error());
 }
 
 ?>
