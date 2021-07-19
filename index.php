@@ -1,3 +1,27 @@
+<?php
+
+include("./admin/database/connection.php");
+
+function data($id) {
+    global $conn;
+    $sql = mysqli_query($conn, "SELECT text FROM `index` WHERE id=$id");
+    $row = mysqli_fetch_assoc($sql);
+    echo ($row["text"]);            
+}
+
+// https://bgcp.bionluk.com/images/avatar/200x200/27b4c6c3-f7c4-4591-8333-ba282f1e4c65.jpg
+// array_push($text, $db)
+// $sql = mysqli_query($conn, "SELECT text FROM index");
+//$id = 1;
+//$text = array();
+// while($db = mysqli_query($conn, "SELECT text FROM index WHERE id='$id'")) {
+//    $sql = mysqli_query($conn, "SELECT text FROM `index` WHERE id=2");
+  //  $row = mysqli_fetch_assoc($sql);
+    //echo($row["text"]);
+    //echo mysqli_error($conn);
+// }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,23 +45,19 @@
         <a href="#footer" onClick="closeNav()">Contact</a>
     </section>
     <section class="presentation" id="presentation">
-        <img src="https://bgcp.bionluk.com/images/avatar/200x200/27b4c6c3-f7c4-4591-8333-ba282f1e4c65.jpg " alt="">
+        <img src=<?php data(3); ?> alt="">
         <div>
-            <h1>Hello World</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas sunt impedit similique beatae suscipit, natus cum consectetur ratione alias, quos debitis ducimus itaque, obcaecati corrupti optio pariatur id laboriosam animi? Porro, culpa iste
-                voluptatibus vero deserunt officia tempore nulla fugit pariatur, quis dignissimos, quae officiis animi maiores optio. Dolorum in maxime minima, cupiditate harum accusantium corporis sit quis illum aut suscipit molestiae, culpa tenetur.
-                Beatae qui voluptas dolores amet quidem quasi ipsam in dignissimos eligendi quia quas perspiciatis voluptatum dolorum, cupiditate magni vero pariatur maxime vel deserunt, debitis, sed doloribus reprehenderit modi! Minima ea, sequi recusandae
-                eligendi tempore soluta velit?</p>
+            <h1><?php data(1); ?></h1>
+            <p><?php data(2); ?></p>
         </div>
     </section>
     <section class="portfolio" id="portfolio">
         <div>
-            <img src="https://bgcp.bionluk.com/images/avatar/200x200/27b4c6c3-f7c4-4591-8333-ba282f1e4c65.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, beatae.
-            </p>
+            <a href=<?php data(4); ?>><img src=<?php data(5); ?> alt=""></a>
+            <p><?php data(6); ?></p>
         </div>
         <div>
-            <img src="https://bgcp.bionluk.com/images/avatar/200x200/27b4c6c3-f7c4-4591-8333-ba282f1e4c65.jpg" alt="">
+            <a href=<?php data(7); ?>><img src=<?php data(8); ?> alt=""></a>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, beatae.
             </p>
         </div>
