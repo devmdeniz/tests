@@ -58,30 +58,28 @@ function data($id) {
         </div>
         <div>
             <a href=<?php data(7); ?>><img src=<?php data(8); ?> alt=""></a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, beatae.
-            </p>
+            <p><?php data(9); ?></p>
         </div>
         <div>
-            <img src="https://bgcp.bionluk.com/images/avatar/200x200/27b4c6c3-f7c4-4591-8333-ba282f1e4c65.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, beatae.
-            </p>
+            <a href=<?php data(10)?>><img src=<?php data(11)?> alt=""></a>
+            <p><?php data(12)?></p>
         </div>
     </section>
     <section class="blog" id="blog">
         <div>
-            <img src="https://bgcp.bionluk.com/images/avatar/200x200/27b4c6c3-f7c4-4591-8333-ba282f1e4c65.jpg" alt="">
+            <a href=<?php data(13)?>><img src=<?php data(14)?> alt=""></a>
         </div>
         <div>
-            <img src="https://bgcp.bionluk.com/images/avatar/200x200/27b4c6c3-f7c4-4591-8333-ba282f1e4c65.jpg" alt="">
+            <a href="<?php data(15)?>"><img src=<?php data(16)?> alt=""></a>
         </div>
         <div>
-            <img src="https://bgcp.bionluk.com/images/avatar/200x200/27b4c6c3-f7c4-4591-8333-ba282f1e4c65.jpg" alt="">
+            <a href=<?php data(17)?>><img src=<?php data(18)?> alt=""></a>
         </div>
     </section>
     <footer id="footer">
-        <a href=""><i class="fas fa-envelope w3-xxxlarge "></i></a>
-        <a href=""><i class="fab fa-linkedin w3-xxxlarge "></i></a>
-        <a href=""><i class="fab fa-github w3-xxxlarge "></i></a>
+        <a href=<?php data(19)?>><i class="fas fa-envelope w3-xxxlarge "></i></a>
+        <a href=<?php data(20)?>><i class="fab fa-linkedin w3-xxxlarge "></i></a>
+        <a href=<?php data(21)?>><i class="fab fa-github w3-xxxlarge "></i></a>
     </footer>
     <script src="js/app.js"></script>
 </body>
