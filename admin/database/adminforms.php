@@ -6,9 +6,18 @@ include("./connection.php");
 // Contact = 3
 // UPDATE `index` SET `text` = 'Lorem ipsum dolor sit ame' WHERE `index`.`id` = 12
 // 
+function updateData($text, $id) {
+global $conn;
+
+    if($sql = mysqli_query($conn, 'UPDATE `index` SET `text` = $text WHERE `index`.`id` = $id')) {
+        echo "Succesfull";
+    } else {
+        die('err' . $id . $text . mysqli_error($conn));
+    }
+}
+
 if(isset($_GET["presentationone"])) {
     $presentationone = $_GET["presentationone"];
-
 }
 
 if(isset($_GET["presentationtwo"])) {
