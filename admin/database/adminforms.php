@@ -9,21 +9,21 @@ include("./connection.php");
 function updateData($text, $id) {
 global $conn;
 
-    if($sql = mysqli_query($conn, 'UPDATE `index` SET `text` = $text WHERE `index`.`id` = $id')) {
+    if($sql = mysqli_query($conn, "UPDATE `index` SET `text` = $text WHERE id = '$id'")) {
         echo "Succesfull";
     } else {
-        die('err' . $id . $text . mysqli_error($conn));
-    }
+        echo(' err ' . $id . ' ' .$text . mysqli_error($conn));
+        }
 }
 
 function updateMail($mail, $id) {
     global $conn;
     $text = 'mailto:'. $mail;
-    if($sql = mysqli_query($conn, 'UPDATE `index` SET `text` = $text WHERE `index`.`id` = $id')) {
+    if($sql = mysqli_query($conn, "UPDATE `index` SET `text` = $text WHERE id = '$id'")) {
         echo "Succesfull";
-    } else {
-        die('err' . $id . $text . mysqli_error($conn));
     }
+    header("Location: ../admin.php");
+
 }
 
 if(isset($_GET["presentationone"])) {
@@ -133,12 +133,12 @@ if(isset($_GET["contactone"])) {
 
 if(isset($_GET["contacttwo"])) {
     $contacttwo = $_GET["contacttwo"];
-    updateData($text, 20);
+    updateData($contacttwo, 20);
 }
 
 if(isset($_GET["contactthree"])) {
     $contactthree = $_GET["contactthree"];
-    updateData($text, 21);
+    updateData($contactthree, 21);
 }
 
 /*
