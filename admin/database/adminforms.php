@@ -4,10 +4,11 @@ include("./connection.php");
 // Portfolio = 9
 // Blog = 6
 // Contact = 3
-
+// UPDATE `index` SET `text` = 'Lorem ipsum dolor sit ame' WHERE `index`.`id` = 12
 // 
 if(isset($_GET["presentationone"])) {
     $presentationone = $_GET["presentationone"];
+
 }
 
 if(isset($_GET["presentationtwo"])) {
