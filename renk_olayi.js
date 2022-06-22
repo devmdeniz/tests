@@ -38,29 +38,37 @@
 // javascript kodu
 
   <script src="jquery-3.6.0.min.js"></script>
-  <script>
-          let tempOption = document.createElement('option');
-        tempOption.value = 'Renk';
-        tempOption.text = 'Renk';
-      $('.urun').change(function () {
-          $('.productColors')
-          .find('option')
-          .remove()
-          .end()
-          .append(tempOption);
-             let valueToFind = `option[value="${$(this).val()}"]`;
-   let findedOption =      document.getElementById('products').querySelector(valueToFind);
-   let findedId = $(findedOption).attr('id');
-   $.get('https://mobimobi.ml/determinationsystems/renkalgila.php?urunid='+findedId).then(function (data) {
-        data.forEach(function (val, ind) {
-            if(val.length > 1){
-            let tempOption = document.createElement('option');
-            tempOption.value = val;
-            tempOption.text = val;
-            $('.productColors')
-           .append(tempOption)
-            }
-    })
-})
-})
-  </script>
+  
+function gonderr() {
+
+var arrayDizi =[];
+
+console.log(arrayDizi);
+
+$("#kopyalanacakform .satis").each(function () {
+
+var obj=$(this);
+
+    var urunadi= obj.find(".urun").val();
+
+    var fiyatmiktar= obj.find(".fiyat").val();
+
+if(urunadi) { 
+
+arrayDizi.push({AD:urunadi,MIKTAR: fiyatmiktar});
+
+}
+
+});
+
+return arrayDizi;
+
+};
+
+ 
+
+
+
+
+
+
