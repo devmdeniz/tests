@@ -26,7 +26,7 @@
 
 
 
-//renk option kodu
+// renk option kodu
 
 <select class="productColors" class="form-control selectpicker" name="urunRenk_select[]">
 <option value="renk">Renk</option>
@@ -39,6 +39,7 @@
 
   <script src="jquery-3.6.0.min.js"></script>
   
+// POST ETMEK ISTERSEM YAZILMIS
 function gonderr() {
 
 var arrayDizi =[];
@@ -66,9 +67,90 @@ return arrayDizi;
 };
 
  
+// GET METHODU
+<script src="jquery-3.6.0.min.js"></script>
+
+  <script>
+
+          let tempOption = document.createElement('option');
+
+        tempOption.value = 'Renk';
+
+        tempOption.text = 'Renk';
+
+      $('.urun').change(function () {
+
+          $('.productColors')
+
+          .find('option')
+
+          .remove()
+
+          .end()
+
+          .append(tempOption);
+
+             let valueToFind = `option[value="${$(this).val()}"]`;
+
+   let findedOption =      document.getElementById('products').querySelector(valueToFind);
+
+   let findedId = $(findedOption).attr('id');
+
+   $.get('/renkalgila.php?urunid='+findedId).then(function (data) {
+
+        data.forEach(function (val, ind) {
+
+            if(val.length > 1){
+
+            let tempOption = document.createElement('option');
+
+            tempOption.value = val;
+
+            tempOption.text = val;
+
+            $('.productColors')
+
+           .append(tempOption)
+
+            }
+
+    })
+
+})
+
+})
+
+  </script>
 
 
 
+// RENKALGILA.PHP KODU
+
+<?php
+
+include("connection");
+
+$urunid = $_GET["urunid"];
+
+$sql = "SELECT * FROM urunler WHERE urunid = '$urunid'";
+
+$result = mysqli_query($conn, $sql);
+
+$insert = mysqli_fetch_array($result);
+
+$explodeurunler = explode(',', $insert['urunrenk']);
+
+
+
+
+
+header("Content-Type: application/json");
+
+echo json_encode($explodeurunler);
+
+
+
+?>
 
 
 
